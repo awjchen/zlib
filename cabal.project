@@ -1,0 +1,14 @@
+packages: .
+
+package zlib
+  tests: true
+
+source-repository-package
+  type: git
+  location: https://github.com/haskellari/splitmix
+  tag: 4606188a437e6f6478fed2a20cadd716589f25ea
+
+source-repository-package
+  type: git
+  location: https://github.com/haskell/random
+  tag: 6d8b9b5f09bfd726662035c2a9687c1c23a3ebbc
